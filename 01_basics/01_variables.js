@@ -2,16 +2,18 @@ const accountId = 144553;
 let accountEmail = "bkda.dev1@gmail.com";
 var accountPassword = "12345";
 accountCity = "Balasore";
+let accountState;
 
 // accountId = 2; // not allowed
 
 accountEmail = "bk%bk.com"
 accountPassword = "212121"
 accountCity = "BBSR"
+// let accountState;
 
 console.log(accountId);
 
-console.table([accountId, accountEmail, accountPassword, accountCity])
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
 
 /*
 The keyword "var" is less preferrable used and most widely used keywords are "let" and "const".
