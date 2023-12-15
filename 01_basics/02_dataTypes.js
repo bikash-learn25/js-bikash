@@ -22,4 +22,4 @@ let state;
 
 console.log(typeof isLoggedIn) //boolean
 console.log(typeof undefined) //undefined
-console.log(typeof null) //object
+console.log(typeof null) //object  
