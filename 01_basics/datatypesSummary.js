@@ -8,27 +8,26 @@
 // console.log(id === anotherId)
 // console.log(id == anotherId)
 
-const bigNumber = 87346734809347634834n
+// const bigNumber = 87346734809347634834n
 
-// console.log(bigNumber)
+// // console.log(bigNumber)
 
 
-// Reference type or Non-Primitives
+// // Reference type or Non-Primitives
 
-// 3 types: Objects, Arrays, Functions
+// // 3 types: Objects, Arrays, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
-    name: "Bikash",
-    age: 25,
-}
+// const heros = ["shaktiman", "naagraj", "doga"];
+// let myObj = {
+//     name: "Bikash",
+//     age: 25,
+// }
 
-const myFunction = function(){
-    console.log("Hello world");
-}
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
 
-console.log(typeof bigNumber)
-
+// console.log(typeof bigNumber)
 
 
 
