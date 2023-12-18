@@ -30,6 +30,13 @@
 // console.log(typeof bigNumber)
 
 
+console.log(null > 0) // false
+console.log(null== 0) // false
+console.log(null >= 0) // true
+
+// The reason is that an equality check == and comparisons ><>=<= work differently.//
+// The Comparisons convert "null" to a number, treating it as "0". Thats why (3) null >= 0  is trye and (1) null > 0 is false.//
+
 
 
 
