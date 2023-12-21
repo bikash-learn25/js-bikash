@@ -90,3 +90,5 @@ console.log(nameOne.replace("Ra", "Me")) // Mehul
 console.log(nameOne.concat(Myname, "Bikash")) // RahulHarryBikash
 
 console.log(nameOne.concat(Myname)) // RahulHarry
+
+// Strings are immutable (unchanged)
