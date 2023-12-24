@@ -8,7 +8,7 @@
 let myNewDate = new Date(2023, 2, 12)
 console.log(myNewDate.toDateString()) // Sun Mar 12 2023
 
-// console.log(myDate.toISOString()) //2023-12-24T13:04:03.139Z
+console.log(myDate.toISOString()) //2023-12-24T13:04:03.139Z
 
 // console.log(myDate.toLocaleDateString()) // 12/24/2023
 
