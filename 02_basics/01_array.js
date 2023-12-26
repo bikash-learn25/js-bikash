@@ -36,25 +36,32 @@
 // console.log(myn2) // [ 1, 2, 3 ]
 
 // Example 2 for slice() and splice() methods
-var users = ["Ted", "Tim", "Ton", "Sam", "Sor", "Sod"]
+// var users = ["Ted", "Tim", "Ton", "Sam", "Sor", "Sod"]
 
 // Slice() method
 
 /* in Slice(), when you're passing up a range the first value which is the start point is always inclusive and the last value or the end range is always exclusive. */
 
-console.log(users.slice(1, 3)) // ['Tim', 'Ton' ]
-console.log(users.slice(2, 4)) // [ 'Ton', 'Sam' ]
-console.log(users.slice(3, 5)) // [ 'Sam', 'Sor' ]
-console.log(users.slice(1)) // [ 'Tim', 'Ton', 'Sam', 'Sor', 'Sod' ] : It excluded the index 1 value
+// console.log(users.slice(1, 3)) // ['Tim', 'Ton' ]
+// console.log(users.slice(2, 4)) // [ 'Ton', 'Sam' ]
+// console.log(users.slice(3, 5)) // [ 'Sam', 'Sor' ]
+// console.log(users.slice(1)) // [ 'Tim', 'Ton', 'Sam', 'Sor', 'Sod' ] : It excluded the index 1 value
 
-// users.length - 1 calculates the index of the last element in the array, and slice extracts elements from that index to the end of the array.
+// // users.length - 1 calculates the index of the last element in the array, and slice extracts elements from that index to the end of the array.
 
-console.log(users.slice(users.length -1)) // [ 'Sod' ]
-console.log(users.slice(users.length -2)) // [ 'Sor', 'Sod' ]
-console.log(users.slice(users.length -3)) // [ 'Sam', 'Sor', 'Sod' ]
-console.log(users.slice(users.length -4)) // [ 'Ton', 'Sam', 'Sor', 'Sod' ]
-console.log(users.slice(users.length -5)) // [ 'Tim', 'Ton', 'Sam', 'Sor', 'Sod' ]
+// console.log(users.slice(users.length -1)) // [ 'Sod' ]
+// console.log(users.slice(users.length -2)) // [ 'Sor', 'Sod' ]
+// console.log(users.slice(users.length -3)) // [ 'Sam', 'Sor', 'Sod' ]
+// console.log(users.slice(users.length -4)) // [ 'Ton', 'Sam', 'Sor', 'Sod' ]
+// console.log(users.slice(users.length -5)) // [ 'Tim', 'Ton', 'Sam', 'Sor', 'Sod' ]
 
 
 // Splice() Method
 
+var users = ["Ted", "Tim", "Ton", "Sam", "Sor", "Sod"]
+
+// users.splice(1, 3, 'Hi') // [ 'Ted', 'Hi', 'Sor', 'Sod' ]
+
+// users.splice(1, 3, 'Hi', 'Bye') // [ 'Ted', 'Hi', 'Bye', 'Sor', 'Sod' ]
+
+// console.log(users) // [ 'Ted', 'Hi', 'Bye' ] - combine output
