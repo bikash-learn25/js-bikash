@@ -13,5 +13,5 @@
 const programming = ['js', 'rb', 'c', 'cpp']
 
 for (const key in programming) {
-    console.log(key);
+    console.log(programming[key]);
 }
