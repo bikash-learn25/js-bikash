@@ -3,13 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Learning</title>
-</head>
-<body>
-  <div class="bg-bla">
-    <h1 class="heading">DOM Learning on Chai aur code!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aut nemo quod quam tempore velit pariatur voluptatibus a? Quibusdam, quas?</p>
-  </div>
     
+    <title>DOM Learning</title>
+
+  </head>
+<body>
+
+  <!-- <div> tag is th parent node of the below <p> tag
+  <div>
+    
+    <p id="message">Javascript DOM</p> -->
+    <!-- <input type="radio" name="language" value="JS">
+    <input type="radio" name="language" value="CPP"> -->
+    <!-- <h1 class="message">First Heading</h1> -->
+    
+    <!-- <div id="container">
+      <h1 class="message">Second Heading</h1>
+      <h1 class="message">Third Heading</h1>
+    </div> -->
+    
+  <!-- </div>  -->
+<!-- Traversing elements -->
+    <!-- <div class="title">
+      <p>Welcome to Ayodhya 1</p>
+      <p class="second">Welcome to Ayodhya 2</p>
+      <p>Welcome to Ayodhya 3</p>
+      <p>Welcome to Ayodhya 4</p>
+    </div> -->
+
+    <!-- appendChild() usage -->
+    <ul id="menu">
+      <li>Home</li>
+      <li>About</li>
+      <li>Blog</li>
+      <li>Project</li>
+    </ul>
+
+  <script>
+      // let msg = document.getElementById('message');
+      // console.log(msg);
+    // let iPut = document.getElementsByName('language');
+    // console.log(iPut);
+    // let Heading = document.getElementsByTagName('h1');
+    // console.log(Heading);
+    // let cont = document.getElementById("container");
+    // let msg = cont.getElementsByClassName('message');
+    // console.log(msg);
+
+    // let msg = document.querySelector(".message")
+    // console.log(msg);
+
+    // how to get the parent element?
+    // let txt = document.querySelector('.text');
+    // console.log(txt.parentNode);
+
+    // how to get the child element?
+    // let parent = document.querySelector('.title');
+    
+    // console.log(parent.firstChild);// o/p: #text
+    
+    // console.log(parent.firstElementChild);// o/p: <p class="text">Welcome to Ayodhya 1</p>
+    
+    // console.log(parent.lastElementChild);// o/p: <p class="text">Welcome to Ayodhya 4</p>
+    
+    // get all child element
+    // console.log(parent.childNodes);// o/p: NodeList(9) [text, p.text, text, p.text, text, p.text, text, p.text, text]
+   
+    // how to select the next siblings and previous siblings of an element?
+
+    // let second = document.querySelector('.second');
+
+    // console.log(second.previousElementSibling); // / o/p: <p>Welcome to Ayodhya 1</p>
+    
+    // console.log(second.nextElementSibling); // / o/p: <p>Welcome to Ayodhya 3</p>
+
+    // how to Manipulate the HTML elements using createElement()?
+    // let div = document.createElement('div')
+    
+    // div.innerHTML = "<p>Welcome to Balasore, Odisha</p>"
+
+    // document.body.appendChild(div);
+    // div.id = "title" // it will create a new id="child"
+    // div.className = "title" // it will create a new class="child"
+
+    // console.log(div);
+
+    // why to use appendChild(): This method is also used to move an element from one element to another element. It is used for creating a new element with some text then first create the text as the text node and then append it to the element, then append the element to the document.
+    let menu = document.getElementById('menu');
+
+    // let list = document.createElement('li');
+    // list.innerHTML = "contact";
+
+    // menu.appendChild(list)
+
+    // textContent() usage:
+    console.log(menu.textContent);
+
+
+  </script>
 </body>
 </html>
